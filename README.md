@@ -1,9 +1,9 @@
 # lamden-timelock
 Smart Contract to lock tokens on Lamden
 
-`con_timelock.py` - The smart contract itself
-`approve.py` - Approve the smart contract to spend your TAU. Needed to be able to lock TAU
-`frontend.py` - Web interface to lock and unlock
+`con_timelock.py` - The smart contract itself  
+`approve.py` - Approve the smart contract to spend your TAU. Needed to be able to lock TAU  
+`frontend.py` - Web interface to lock and unlock  
 
 ### How to use
 1. Approve contract to spend your TAU (or any other token) with `approve.py`. You need to set the privkey in there
