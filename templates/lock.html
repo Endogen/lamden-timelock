@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lock tokens</title>
+</head>
+<body>
+
+<table>
+    <tr>
+
+    </tr>
+</table>
+
+<form method="post">
+    <table>
+        <tr>
+            <td>
+                <label>Private key</label>
+                <input type="text" name="privkey" value="{{ privkey }}"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Contract</label>
+                <input type="text" name="contract" value="{{ contract }}"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Amount</label>
+                <input type="number" name="amount" value="{{ amount }}"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Time to lock in minutes</label>
+                <input type="number" name="minutes" value="{{ minutes }}"/>
+            </td>
+        </tr>
+    </table>
+    <input type="submit">
+</form>
+<p>Result: {{ result }}</p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+contracting = "==1.0.5"
+lamden = "*"
+uvicorn = "*"
+jinja2 = "*"
+python-multipart = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

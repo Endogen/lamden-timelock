@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unlock tokens</title>
+</head>
+<body>
+
+<table>
+    <tr>
+
+    </tr>
+</table>
+
+<form method="post">
+    <table>
+        <tr>
+            <td>
+                <label>Private key</label>
+                <input type="text" name="privkey" value="{{ privkey }}"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>UID</label>
+                <input type="text" name="uid" value="{{ uid }}"/>
+            </td>
+        </tr>
+    </table>
+    <input type="submit">
+</form>
+<p>Result: {{ result }}</p>
+</body>
+</html>
