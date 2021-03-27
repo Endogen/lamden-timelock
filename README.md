@@ -11,4 +11,4 @@ Smart Contract to lock tokens on Lamden
 3. It will return a tx hash. Check that hash in the explorer https://testnet.lamden.io and extract the `result`
 4. After locktime is over: http://0.0.0.0:8000/unlock and enter the value you copied from `result`
 
-Thanks to MarViN for providing the code to be able to lock any token and not just TAU. Thanks man!
+Thanks to [Kelvin](https://github.com/KELs7) for providing the code to be able to lock any token and not just TAU. Thanks man!
